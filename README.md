@@ -15,55 +15,40 @@ Let’s List Your Golden Features (Updated)
 1. Task + Goal System (with progress %)
 
 Daily, Weekly, Monthly, Yearly, 5-Year Targets
-
 Priority-based progress tracking
-
 Checklist with stats
-
 See common daily/monthly tasks linked to long-term goals (motivation booster)
 Daily Habit Tasks (pre-filled) like "Wake Up", "Workout", etc. it gone make impact on end goal
 
 2.* Health & Focus*
 
 Water Intake Reminder
-
 Sleep Tracker
-
 Focus Mode with Insta/YouTube blockers
-
 Meditation Timer (auto increase time per day like 5min → 6min → 15min)
 
 3. Emotion & Mindfulness
 
 Mood Tracker
-
 Scrolling Detector (Mindlessly Scrolling Awareness)
 
 
 4. Note + Expense Sync
 
 Shared notes across mobile/web
-
-Expense & income log with date, type
-
 View trends and history
-
 
 5. Smart Insights
 
 Colored Calendar View with past performance
-
 Priority Matrix (Urgent-Important logic)
-
 Daily/Weekly Reports: progress %, best streaks, focus hours
 
 
 6. Gamification Layer
 
 XP, Badges, Level ups
-
 Avatar grows as you grow
-
 Challenges like “7-Day Streak Warrior”
 
 View friends’ streaks & shared goals (friendly competition & social push)
