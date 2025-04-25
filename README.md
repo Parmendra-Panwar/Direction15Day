@@ -4,11 +4,11 @@ started -> 20 / 04 / 2025 (Part time project daily target 3 hour)
 
 expected ends
 
-        phase 1 -> 30 / 04 / 2025 
-        phase 2 -> 15 / 05 / 2025
-        phase 3 -> 31 / 05 / 2025
-        phase 4 -> 15 / 06 / 2025
-        phase 5 -> 30 / 07 / 2025
+        phase 1 -> 30 / 04 / 2025  UI + Note Sync
+        phase 2 -> 15 / 05 / 2025  Auth(Jwt) Session flash Msg
+        phase 3 -> 31 / 05 / 2025  Middlware Note final User Schema Final + Todo Design
+        phase 4 -> 15 / 06 / 2025  Todo Final + App ( Set Up + Note )
+        phase 5 -> 30 / 07 / 2025  Expanse + App ( Expanse setup + todo done )
 
 Let’s List Your Golden Features (Updated)
 
