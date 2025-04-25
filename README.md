@@ -44,7 +44,6 @@
 
 ### 📝 4. Notes + Expense Sync
 - Shared notes accessible across mobile/web
-- Income & Expense logs (tagged by type/date)
 - Trend and History view for finance & notes
 
 ---
