@@ -67,3 +67,7 @@ Avatar grows as you grow
 Challenges like “7-Day Streak Warrior”
 
 View friends’ streaks & shared goals (friendly competition & social push)
+
+Activity -> 
+25-04-2025 - YES WORKED ON UI 
+
