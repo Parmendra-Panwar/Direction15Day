@@ -1,58 +1,78 @@
-#Targeted Project ( working on )
+# 🎯 Targeted - Personal Productivity App (In Progress)
 
-started -> 20 / 04 / 2025 (Part time project daily target 3 hour)
+> **Part-time passion project** — started on **20/04/2025**  
+> ⏱️ Daily target: ~3 hours
 
-expected ends
+---
 
-        phase 1 -> 30 / 04 / 2025  UI + Note Sync
-        phase 2 -> 15 / 05 / 2025  Auth(Jwt) Session flash Msg
-        phase 3 -> 31 / 05 / 2025  Middlware Note final User Schema Final + Todo Design
-        phase 4 -> 15 / 06 / 2025  Todo Final + App ( Set Up + Note )
-        phase 5 -> 30 / 07 / 2025  Expanse + App ( Expanse setup + todo done )
+## 📅 Project Timeline
 
-Let’s List Your Golden Features (Updated)
+| Phase    | Target Date      | Milestone Description                                     |
+|----------|------------------|-----------------------------------------------------------|
+| Phase 1  | 30/04/2025       | UI + Note Sync                                            |
+| Phase 2  | 15/05/2025       | JWT Auth, Session Flash Messages                          |
+| Phase 3  | 31/05/2025       | Middleware, Final Note & User Schema, Todo Design         |
+| Phase 4  | 15/06/2025       | Final Todo Features + App Setup (Notes)                   |
+| Phase 5  | 30/07/2025       | Expense Tracker + Todo System Finalized in App            |
 
-1. Task + Goal System (with progress %)
+---
 
-Daily, Weekly, Monthly, Yearly, 5-Year Targets
-Priority-based progress tracking
-Checklist with stats
-See common daily/monthly tasks linked to long-term goals (motivation booster)
-Daily Habit Tasks (pre-filled) like "Wake Up", "Workout", etc. it gone make impact on end goal
+## ✨ Golden Features (Updated)
 
-2.* Health & Focus*
+### ✅ 1. Task + Goal System
+- Track goals: Daily / Weekly / Monthly / Yearly / 5-Year
+- Progress-based tracking with completion %
+- Checklist system with visual stats
+- Link recurring tasks to long-term goals for motivation
+- **Pre-filled Daily Habits**: Wake Up, Workout, Journal, etc.
 
-Water Intake Reminder
-Sleep Tracker
-Focus Mode with Insta/YouTube blockers
-Meditation Timer (auto increase time per day like 5min → 6min → 15min)
+---
 
-3. Emotion & Mindfulness
+### 💪 2. Health & Focus
+- Water Intake Reminder
+- Sleep Tracker with visual logs
+- **Focus Mode**: Blocks Instagram/YouTube for deep work
+- Meditation Timer: Increases duration daily (e.g. 5 → 6 → 15 mins)
 
-Mood Tracker
-Scrolling Detector (Mindlessly Scrolling Awareness)
+---
 
+### 🧠 3. Emotion & Mindfulness
+- Mood Tracker
+- Scrolling Detector to bring awareness to mindless behavior
 
-4. Note + Expense Sync
+---
 
-Shared notes across mobile/web
-View trends and history
+### 📝 4. Notes + Expense Sync
+- Shared notes accessible across mobile/web
+- Income & Expense logs (tagged by type/date)
+- Trend and History view for finance & notes
 
-5. Smart Insights
+---
 
-Colored Calendar View with past performance
-Priority Matrix (Urgent-Important logic)
-Daily/Weekly Reports: progress %, best streaks, focus hours
+### 📊 5. Smart Insights
+- Colored Calendar: Past performance visualization
+- Priority Matrix: Based on Urgent–Important framework
+- Daily/Weekly reports: Progress %, best streaks, focus hours
 
+---
 
-6. Gamification Layer
+### 🕹️ 6. Gamification Layer
+- Earn XP, unlock badges, and level up
+- Avatar that evolves with your growth
+- Fun Challenges: *“7-Day Streak Warrior”*
+- View friends’ streaks and goals for friendly motivation
 
-XP, Badges, Level ups
-Avatar grows as you grow
-Challenges like “7-Day Streak Warrior”
+---
 
-View friends’ streaks & shared goals (friendly competition & social push)
+## 🧾 Activity Log
+______________________________________
+| Date       | Activity              |
+|____________|_______________________|
+| 25/04/2025 | ✅ Worked on UI      |
 
-Activity -> 
-25-04-2025 - YES WORKED ON UI 
+---
 
+## 🚧 Current Status
+
+> 🛠️ Actively building — Contributions, feedback, and stars are welcome!  
+> Follow this repo to stay updated as we evolve into a complete productivity and mindfulness system.  
