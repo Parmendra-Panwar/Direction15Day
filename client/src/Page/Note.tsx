@@ -1,53 +1,60 @@
 import { useEffect, useState } from "react"
 import MyButton from "../Component/MyButton";
 import NoteData from "../data/data";
+import NoNote from "../Component/NoNote";
 
-type NoteData = {
-    _id: string;
-    title: string;
-    description: string;
-}
 function Note() {
     const [numOfNote, SetNumOfNote] = useState(0);
     const [currentNote, SetCurrentNote] = useState(0)
+    const [allNotes, setAllNotes] = useState<NoteData[]>([]);
+    const [description, setDescription] = useState("")
+
     useEffect(() => {
+        setAllNotes(NoteData);
         SetNumOfNote(NoteData.length)
+        setDescription(NoteData[0]?.description || "");
     }, [])
+
+    useEffect(() => {
+        if (allNotes.length > 0) {
+            setDescription(allNotes[currentNote].description);
+        }
+    }, [currentNote, allNotes]);
+
+    function submitDescription() {
+        const updatedNotes = [...allNotes];
+        updatedNotes[currentNote] = {
+            ...updatedNotes[currentNote],
+            description: description,
+        };
+        setAllNotes(updatedNotes);
+    }
+
     return (
         <>
-            {numOfNote === 0 ? (
-                <div className="mt-12 min-h-screen bg-white px-6 py-12 flex flex-col items-center">
-                    <h1 className="text-4xl font-bold mb-8">📝 Sync Note</h1>
-                    <div className="max-w-3xl text-lg text-gray-700 space-y-4">
-                        <p>
-                            <strong>Sync Note</strong> is your always-ready, cross-device note-taking hub. Whether it's ideas, tasks, or reflections — your notes stay <span className="font-semibold text-blue-600">instantly synced</span> and safely stored.
-                        </p>
-
-                        <ul className="list-disc pl-6 space-y-2">
-                            <li><strong>⚡ Real-Time Sync</strong> – Notes update live across devices with no reloads.</li>
-                            <li><strong>📱 Mobile-Friendly</strong> – Take notes on-the-go and pick up right where you left off.</li>
-                            <li><strong>🧠 Smart Save</strong> – Auto-save and version control keep your content safe (coming soon).</li>
-                            <li><strong>💻 Minimal UI</strong> – Clean interface built with focus-first design principles.</li>
-                        </ul>
-
-                        <p className="italic text-gray-500">
-                            Built with React, styled in Tailwind — designed to let your thoughts flow without interruption.
-                        </p>
-
-                    </div>
-                    <MyButton textInside="Lets Start>>" />
-                </div>
-            ) : (
+            {numOfNote === 0 ? (<NoNote />) : (
                 <>
                     <div className="mt-12 min-h-screen bg-white px-6 py-12 flex flex-col items-center">
-                        <section className="flex flex-row gap-6">
-                            {
-                                NoteData.map((Note, index) => (
-                                    <div key={index} className="bg-[#8f8f8f] rounded-xl">
-                                        <h2>{Note.title}</h2>
-                                    </div>
-                                ))
-                            }
+                        <section className="flex flex-row gap-6 overflow-x-auto scrollbar-hide">
+                            {NoteData.map((Note, index) => (
+                                <MyButton
+                                    key={index}
+                                    textInside={Note.title}
+                                    onClick={() => SetCurrentNote(index)}
+                                />
+                            ))}
+                        </section>
+
+                        <section>
+                            <textarea
+                                name="description"
+                                id="description"
+                                value={description}
+                                onChange={(e) => setDescription(e.target.value)}
+                                className="mt-12 w-60 md:w-150  h-96 p-4 border border-gray-300 rounded-xl resize-none focus:outline-none focus:ring-2 
+                                            focus:ring-sky-400 bg-gray-50 text-gray-800 shadow-sm">
+                            </textarea>
+                            <MyButton textInside="Submit" limitwidth colorTofill="#00ff00" onClick={submitDescription} />
                         </section>
                     </div>
                 </>
