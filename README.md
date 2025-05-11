@@ -71,7 +71,7 @@
 
 ---
 
-## 🚧 Current Status
+## 🚧 Current Status 
 
 > 🛠️ Actively building — Contributions, feedback, and stars are welcome!  
 > Follow this repo to stay updated as we evolve into a complete productivity and mindfulness system.  
