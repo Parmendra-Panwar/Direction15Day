@@ -9,11 +9,11 @@
 
 | Phase    | Target Date      | Milestone Description                                     |
 |----------|------------------|-----------------------------------------------------------|
-| Phase 1  | 30/04/2025       | UI + Note Sync                                            |
-| Phase 2  | 15/05/2025       | JWT Auth, Session Flash Messages                          |
-| Phase 3  | 31/05/2025       | Middleware, Final Note & User Schema, Todo Design         |
-| Phase 4  | 15/06/2025       | Final Todo Features + App Setup (Notes)                   |
-| Phase 5  | 30/07/2025       | Expense Tracker + Todo System Finalized in App            |
+| Phase 1  | 20/05/2025       | UI + Note Sync                                            |
+| Phase 2  | 31/05/2025       | JWT Auth, Session Flash Messages                          |
+| Phase 3  | 15/06/2025       | Middleware, Final Note & User Schema, Todo Design         |
+| Phase 4  | 30/06/2025       | Final Todo Features + App Setup (Notes)                   |
+| Phase 5  | 15/07/2025       | Expense Tracker + Todo System Finalized in App            |
 
 ---
 
